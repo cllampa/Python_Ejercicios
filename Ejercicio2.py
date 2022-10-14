@@ -1,3 +1,3 @@
 a="Hola mundo"
-b="Chau mundo"
-print(b)
+a="Chau mundo"
+print(a)
