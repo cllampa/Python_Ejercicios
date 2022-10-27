@@ -35,7 +35,7 @@ def insertar_alumnos(conn):
         (5,"Lu","Castro"),
         (6,"Ro","Pared"),
         (7,"Yesica","Gutierrez"),
-        (8,"Liz","Lucich")       
+        (8,"Pablo","Lucich")       
     ]
     cursor=conn.cursor()
     cursor.executemany('''INSERT INTO Alumnos VALUES(?,?,?)''', variosAlumnos)
